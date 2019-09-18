@@ -17,7 +17,7 @@
 		</div>
 	  <div class="col">
 			<label for="forIdade">Idade:</label> 
-			<input type="text" class="form-control" id="forIdade" name="idade" value="${pessoa.idade}" required="required"> 
+			<input type="number" class="form-control" id="forIdade" name="idade" value="${pessoa.idade}" required="required"> 
 			<small id="forIdade" class="form-text text-muted">We'll never share your age with anyone else.</small>
 		</div>
 	  </div>

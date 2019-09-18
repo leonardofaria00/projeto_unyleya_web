@@ -12,11 +12,16 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+
 <!-- Bootstrap CSS -->
 <c:url value="/resources" var="cssPath" />
 <link rel="stylesheet" href="${cssPath}/css/bootstrap.min.css">
-<%-- <script src="${cssPath}/js/bootstrap.min.js"></script> --%>
+<link rel="stylesheet" href="${cssPath}/css/meus-estilos.css">
+
 <script src="${cssPath}/js/bootstrap.mim.js"></script>
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
 	crossorigin="anonymous">
@@ -29,7 +34,7 @@ h2{
 	padding: 20px; 0px;
 }
 </style>
-<title>Desenvolvimento de Sistemas com Java - Unyleya!</title>
+<title>Desenvolvimento de Sistemas com Java!</title>
 </head>
 <body class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -44,7 +49,7 @@ h2{
         <a class="nav-link" href="${s:mvcUrl('PC#form').build()}"><i class="fa fa-users"></i> Cadastro de Pessoas  <span class="sr-only">(página atual)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="${s:mvcUrl('PC#index').build()}"><i class="fas fa-portrait"></i> Lista de Pessoas <span class="sr-only">(página atual)</span></a>
+        <a class="nav-link" href="${s:mvcUrl('PC#index').build()}"><i class="fas fa-list-ul"></i> Lista de Pessoas <span class="sr-only">(página atual)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="https://github.com/leonardofaria00/projeto_unyleya_web" target="_blank"><i class="fas fa-code-branch"></i> GitHub  <span class="sr-only">(página atual)</span></a>
@@ -56,3 +61,4 @@ h2{
     </form>
   </div>
 </nav>
+<hr>

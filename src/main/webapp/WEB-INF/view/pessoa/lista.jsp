@@ -31,6 +31,7 @@
 						<a href="/unyleya/pessoas/lista/${p.id}">
 							<i class="fas fa-user-edit"></i>
 						</a>
+						&nbsp
 						<a href="/unyleya/pessoas/delete/${p.id}">
 							<i class="fas fa-trash-alt"></i>
 						</a>
