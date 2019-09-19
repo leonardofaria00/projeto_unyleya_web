@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 <tags:pageTemplate titulo="corpo">
-	<div class="card" style="position: absolute; top: 20%;">
+	<div class="card titulo-pagina-inicial">
 		<h2>Tarefa 4.2</h2>
 	</div>
-	<div style="position: absolute; top: 40%">
+	<div class="conteudo-pagina-inicial">
 		<p>
 			Esta atividade tem como objetivo o desenvolvimento de um
 			sistema de cadastro com banco de dados PostgreSQL e JPA/Hibernate.

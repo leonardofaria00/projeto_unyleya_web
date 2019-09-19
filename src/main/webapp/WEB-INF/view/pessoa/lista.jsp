@@ -13,10 +13,10 @@
 			<tr class="text-center">
 				<th scope="col">#</th>
 				<th scope="col">Código</th>
-				<th scope="col">Nome</th>
-				<th scope="col">Idade</th>
-				<th scope="col">Endereço</th>
-				<th scope="col">Ações</th>
+				<th scope="col"><i class="fa fa-user" aria-hidden="true"></i> Nome</th>
+				<th scope="col"><i class="fa fa-calendar" aria-hidden="true"></i> Idade</th>
+				<th scope="col"><i class="fa fa-map-marker" aria-hidden="true"></i> Endereço</th>
+				<th scope="col"><i class="fa fa-cog" aria-hidden="true"></i> Ações</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -29,11 +29,11 @@
 					<td>${p.endereco}</td>
 					<td>
 						<a href="/unyleya/pessoas/lista/${p.id}">
-							<i class="fas fa-user-edit"></i>
+							<i class="material-icons">edit</i>
 						</a>
 						&nbsp
 						<a href="/unyleya/pessoas/delete/${p.id}">
-							<i class="fas fa-trash-alt"></i>
+							<i class="material-icons">delete</i>
 						</a>
 					</td>
 				</tr>
