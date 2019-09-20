@@ -1,4 +1,4 @@
-<footer style="position: absolute; top: 120%; left: 30%">
+<footer class="d-none d-xl-block rodape" style="position: absolute; top: 120%; left: 30%">
 	<div class="container">
 		<div style="display: block; text-align: center;">
 			<a class="btn" href="https://sites.google.com/view/leonardofaria00/contato" target="_blank">

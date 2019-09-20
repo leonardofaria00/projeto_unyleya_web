@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
 <tags:pageTemplate titulo="corpo">
-	<div class="card titulo-pagina-inicial">
+	<div class="card titulo-pagina-inicial d-none d-xl-block">
 		<h2>Tarefa 4.2</h2>
 	</div>
 	<div class="conteudo-pagina-inicial">
