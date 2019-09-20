@@ -29,11 +29,11 @@
 					<td>${p.endereco}</td>
 					<td>
 						<a href="/unyleya/pessoas/lista/${p.id}">
-							<i class="material-icons">edit</i>
+							<i class="material-icons btn-success">edit</i>
 						</a>
 						&nbsp
 						<a href="/unyleya/pessoas/delete/${p.id}">
-							<i class="material-icons">delete</i>
+							<i class="material-icons btn-primary">delete</i>
 						</a>
 					</td>
 				</tr>

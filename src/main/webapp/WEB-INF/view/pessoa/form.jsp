@@ -34,6 +34,6 @@
 		<br>
 			
 		<button type="reset" class="btn btn-secondary">Limpar</button>
-		<button type="submit" class="btn btn-primary">Submit</button>
+		<button type="submit" class="btn btn-primary">Adicionar</button>
 	</form:form>
 </tags:pageTemplate>

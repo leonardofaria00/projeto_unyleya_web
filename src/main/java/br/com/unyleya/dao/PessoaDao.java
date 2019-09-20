@@ -25,7 +25,7 @@ public class PessoaDao {
 	}
 
 	public List<Pessoa> getPessoas() {
-		return manager.createQuery("SELECT p FROM Pessoa p WHERE status=1 ORDER BY id", Pessoa.class).getResultList();
+		return manager.createQuery("SELECT p FROM pessoa p WHERE status=1 ORDER BY id", Pessoa.class).getResultList();
 	}
 
 	public Pessoa getPessoaPorId(Pessoa pessoa) {
