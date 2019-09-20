@@ -1,5 +1,6 @@
 package br.com.unyleya.model;
 
+import java.io.Serializable;
 import java.util.Calendar;
 
 import javax.persistence.Entity;
@@ -10,7 +11,9 @@ import javax.persistence.Id;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-public class Pessoa {
+public class Pessoa implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -36,7 +39,7 @@ public class Pessoa {
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nome = nome.toUpperCase();
 	}
 
 	public String getEndereco() {
@@ -44,7 +47,7 @@ public class Pessoa {
 	}
 
 	public void setEndereco(String endereco) {
-		this.endereco = endereco;
+		this.endereco = endereco.toUpperCase();
 	}
 
 	public int getIdade() {
