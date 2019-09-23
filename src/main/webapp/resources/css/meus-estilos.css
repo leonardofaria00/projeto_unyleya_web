@@ -9,6 +9,12 @@ body {
 	/* 	font-family: 'Nunito', sans-serif; */
 }
 
+h2 {
+	padding: 20px;
+	0
+	px;
+}
+
 .conteudo-pagina-inicial {
 	position: absolute;
 	top: 40%;
@@ -19,6 +25,9 @@ body {
 	top: 20%;
 }
 
-h2{
-	padding: 20px; 0px;
+.rodape {
+	padding-bottom:20px;
+	position: absolute;
+	top: 120%;
+	left: 30%
 }
