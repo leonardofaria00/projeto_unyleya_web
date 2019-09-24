@@ -26,8 +26,10 @@ h2 {
 }
 
 .rodape {
-	padding-bottom:20px;
-	position: absolute;
-	top: 120%;
-	left: 30%
+	padding-top: 500px;
+	padding-bottom: 10px;
+}
+
+.copyright-text {
+	padding-left: 210px;
 }
