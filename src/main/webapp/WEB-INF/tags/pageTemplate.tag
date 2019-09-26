@@ -1,5 +1,5 @@
-
 <%@ include file="/WEB-INF/view/templates/cabecalho.jsp"%>
+<%@ include file="/WEB-INF/view/templates/menubar.jsp"%>
 
 <jsp:doBody />
 
